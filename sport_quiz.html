@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="qstyles.css">
+</head>
+<body>
+
+	 <div id="quizContainer" class="container">
+     <h1>Urheiluvisa</h1>
+       <div id="question" class=question></div>
+        <label class="option"><input type="radio" name="option" value="1" />
+          <span id="opt1"></span>
+        </label>
+        <label class="option"><input type="radio" name="option" value="2" />
+          <span id="opt2"></span>
+        </label>
+        <label class="option"><input type="radio" name="option" value="3" />
+          <span id="opt3"></span>
+        </label>
+        <label class="option"><input type="radio" name="option" value="4" />
+          <span id="opt4"></span>
+        </label>
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Seuraava kysymys</button>
+   </div>  
+      
+   <div id="result_box" class="container result_box" style="display:none;">
+      <div id="message"></div>         
+      <div id="result"></div>
+      <button id="answerButton" class="answer-btn" >Näytä vastaukset</button>
+   </div>  
+      <div id="answersModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Oikeat vastaukset</h2>
+          </div>
+          <div class="modal-body">
+            <p id="answers"></p>
+          </div>
+        </div>
+      </div>
+    
+    <script src="question.js"></script>
+    <script src="qscript.js"></script>
+</body>
+</html>
