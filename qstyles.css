@@ -9,7 +9,7 @@ body{
     height: 330px;
     width: 1000px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     background: beige;
@@ -100,7 +100,7 @@ body{
 /*** Result box styles ***/
 
 .result_box {
-    height: 200px;
+    height: 30%;
     text-align: center;
     font-size: 50px;
     padding: 10px;
@@ -210,6 +210,29 @@ body{
     filter: opacity(50%);
 }*/
 
+@media only screen and (max-width: 980px){
+
+    .container {
+        width: 90%;
+        height: 60%;
+    }
+
+    .option{
+        width: 90%;
+    }
+
+    .next-btn {
+        
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%
+
+    }
+
+    .result_box {
+        height: 30%
+    }
+}
 
 
 
