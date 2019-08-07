@@ -2,7 +2,7 @@
 
 Quiz made by HTML, CSS and JS. 
 
-### Demo video
+## Demo video
 
 Here is demo video:
 
