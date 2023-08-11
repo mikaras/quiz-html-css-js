@@ -1,6 +1,6 @@
-var questions = [{
-	"question": "Mikä maa sai eniten mitaleita talviolypialaisissa 2018?",
-	"option1": "Venäjä",
+const questions = [{
+	"question": "Mikä maa sai eniten mitaleita talviolympialaisissa 2018?",
+	"option1": "Kiina",
 	"option2": "Norja",
 	"option3": "Yhdysvallat",
 	"option4": "Ruotsi",
@@ -12,14 +12,14 @@ var questions = [{
 	"option3": "5",
 	"option4": "8",
 	"answer": "2"
-}, {
+},{
 	"question": "Kuka suomalainen urheilija voitti eniten mitaleja olypialaisissa 2018?",
 	"option1": "Krista Pärmäkoski",
 	"option2": "Iivo Niskanen",
 	"option3": "Enni Rukajärvi",
 	"option4": "Sami Jauhojärvi",
 	"answer": "1"
-}, {
+},  {
 	"question": "Kuka oli Suomen olympiajoukkueen vanhin urheilija?",
 	"option1": "Sami Jauhojärvi",
 	"option2": "Janne Ahonen",

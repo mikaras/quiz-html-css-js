@@ -7,7 +7,7 @@ Learning to use HTML, CSS and JavaScript.
 
 Here is a demo video:
 
-![Demo](demo/demo_quiz.gif)
+Coming soon.
 
 ## Tech/framework used
 - HTML & CSS
@@ -15,4 +15,4 @@ Here is a demo video:
 
 ## Features
 - User can answer to questions and see how many went right.
-- Show right answers.
+- Show the right answers.
